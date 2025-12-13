@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        img {
+            width: 100%;
+            height: 198px;
+            border-radius: 5px;
+        }
+
+        .sec1 {
+            background-color: #f8f9fa;
+            padding: 2px;
+            border-radius: 5px;
+            height: 200px;
+        }
+
+        .sec2 {
+            background-color: #e9ecef;
+            padding: 2px;
+            border-radius: 5px;
+            height: 200px;
+        }
+
+        .sec3 {
+            background-color: #dee2e6;
+            padding: 2px;
+            border-radius: 5px;
+            height: 200px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #100f0f;
+        }
+
+        header {
+            background-color: #3a1f1f;
+            padding: 10px 0;
+            text-align: right;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #162f48;">
+    <header class="conainer-fluid">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div>
+        <h3 style="color: #f8f9fa;"><b>Welcome to Susan's Kitchen</b></h3>
+    </div>
+    <section id="portfolio" class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-white">
+                <h3 style="color: #f8f9fa;">Portfolio</h3>
+                <p style="color: #f8f9fa;">Showcasing our concept, signature dishes, private dining, and visual gallery.
+                </p>
+                <ul style="color: #f8f9fa;">
+                    <li><strong>Concept:</strong> Seasonal, ingredient-led cuisine with an open hearth.</li>
+                    <li><strong>Chef:</strong> Susan (Head Chef) — fire-forward technique and local sourcing.</li>
+                    <li><strong>Private Dining:</strong> Intimate bookings and chef's table experiences.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-4">
+            <h6 style="color:antiquewhite">Main meal</h6>
+            <div class="sec1">
+                <img src="mm.jpg" alt="main meal image">
+            </div>
+        </div>
+        <div class="col-4">
+            <h6 style="color:aliceblue">Dessert</h6>
+            <div class="sec2">
+                <img src="des.jpg" alt="dessert image">
+            </div>
+        </div>
+        <div class="col-4">
+            <h6 style="color: #f8f9fa;">Drinks</h6>
+            <div class="sec3">
+                <img src="ct.jpg" alt="cocktail image">
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
